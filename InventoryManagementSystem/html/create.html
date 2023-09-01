@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="css/create.css"/>
+    </head>
+        <body>
+                <video class="videoBG" poster="poster.JPG" autoplay muted loop>
+                        <source src="footage1.mp4" type="video/mp4">
+                    </video>
+            <div id="base">
+                <div class="page">
+                    <img src="img/loginavatar.png" class="avatar">
+                        <h1>Create New Account</h1>
+                        <form  name="input" action="signup.php" method="post">
+                            <p>Firstname:</p>
+                            <input type="text" name="firstname" placeholder="Firstname" required=""><br>
+                            <p>Lastname:</p>
+                            <input type="text" name="lastname" placeholder="Lastname" required=""><br>
+                            <p>Username:</p>
+                            <input type="text" name="username" placeholder="username" required=""><br>
+                            <p>Enter mobile no:</p>
+                            <input type="text" name="mobile" placeholder="Mobile number" required=""><br>
+                            <p>Email address:</p>
+                            <input type="text" name="email" placeholder="Enter your email" required=""><br>
+                            <p>Password:</p>
+                            <input type="password" name="pass" placeholder="Enter password" required=""><br>
+                            <p>Confirm password:</p>
+                            <input type="password" name="repass" placeholder="Re-enter password" required=""><br>
+                            <input type="submit" value="Signup">
+                        </form>
+                </div>
+            </div>
+        </body>
+
+</html>

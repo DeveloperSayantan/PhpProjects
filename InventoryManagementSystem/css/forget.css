@@ -1,0 +1,104 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background:url("../img/forget.jpg")no-repeat;
+	background-size: cover;
+	font-family:arial;
+}
+
+form
+{
+    text-align: center;
+}
+
+.avatar
+{
+	border-radius: 100px;
+	width: 75px;
+	height: 75x;
+	position:absolute;
+	top: -40px;
+	left:calc(55% - 50px);
+}
+
+.page
+{
+	padding: 50px 30px;
+	border-radius: 20px;
+	width:420px;
+	height:260px;
+	background-image: linear-gradient(125deg, #008B8B, #556B2F);
+	color:rgb(5, 41, 46);
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+}
+
+h1
+{
+	margin: 0px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+p
+{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	text-align: initial;
+}
+
+input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+input[type="text"]
+{
+    border:none;
+	border-radius:5px;
+	background: seashell;
+	width: 80%;
+	height: 30px;
+}
+
+input[type="submit"]
+{
+    border:none;
+	border-radius:20px;
+	background:crimson;
+	font-size: 15px;
+	width: 30%;
+	height: 30px;
+}
+
+input[type="submit"]:hover
+{
+	cursor: pointer;
+	background:gold;
+	color:crimson;
+}
+
+a
+{
+	text-decoration: none;
+	font-size:14px;
+	line-height: 20px;
+	color: mediumblue;
+}
+
+a:hover
+{
+    color: aliceblue;
+}
